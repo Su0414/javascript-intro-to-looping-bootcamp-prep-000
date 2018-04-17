@@ -3,7 +3,7 @@ function forLoop(array){
   return array;
   
   for(let i = 0 ; i < 25; i++){
-    array[i]="I am strange loop";
+    array[i]=`I am ${i} strange loop`;
   }
 }
 
