@@ -3,6 +3,10 @@ function forLoop(array){
   return array;
   
   for(let i = 0 ; i < 25; i++){
+    
+    if(array.length < i)
+    array.length = i;
+    
     array[i]=`I am ${i} strange loop`;
   }
 }
