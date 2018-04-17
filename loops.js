@@ -1,6 +1,6 @@
 function forLoop(array){
   for(let i = 0 ; i < 25; i++){
-     for (let j = 0, l = testArray.length; j < l; j++) {
+     for (l = array.length; i < l; l++) {
         
         let s = j === 1 ? "I am 1 strange loop." 
                         : `I am ${j} strange loops`;
