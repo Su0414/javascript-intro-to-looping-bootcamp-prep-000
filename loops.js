@@ -1,5 +1,9 @@
 function forLoop(array){
   for(let i = 0; i<25; i++){
+    
+    if(array.length<i)
+       array.length=array.length+1;
+    
     array[i] = `I am ${i} strange loops.`;
   }
 }
