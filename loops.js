@@ -3,3 +3,9 @@ function forLoop(array){
     array[i] = `I am ${i} strange loops.`;
   }
 }
+
+function whileLoop(n){
+  
+}
+
+function 
