@@ -9,6 +9,8 @@ function forLoop(array){
     
     array[i]=`I am ${i} strange loop`;
   }
+  
+  return array;
 }
 
 function whileLoop(n){
