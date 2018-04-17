@@ -1,7 +1,4 @@
 function forLoop(array){
-  if(array.length===0)
-  return array;
-  
   for(let i = 0 ; i < 25; i++){
     
     if(array.length < i)
