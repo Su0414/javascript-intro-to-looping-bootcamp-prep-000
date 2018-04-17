@@ -1,4 +1,10 @@
 function forLoop(array){
+  if(array.length===0)
+  return array;
+  
+  for(let i = 0 ; i < 25; i++){
+    array[i]="I am strange loop";
+  }
 }
 
 function whileLoop(n){
