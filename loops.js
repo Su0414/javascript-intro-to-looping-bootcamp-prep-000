@@ -1,10 +1,10 @@
 function forLoop(array){
   for(let i = 0 ; i < 25; i++){
+     for (let i = 0, l = testArray.length; i < l; i++) {
+        
+        let s = i === 1 ? "I am 1 strange loop." : `I am ${i} strange loops.`
     
-    if(array.length < i)
-    array.length = i;
-    
-    array[i]=`I am ${i} strange loop`;
+    array.push(`I am ${i} strange loop`);
   }
   
   return array;
